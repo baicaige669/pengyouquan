@@ -8,3 +8,8 @@
 ![1709215242445](https://github.com/baicaige669/pengyouquan/assets/146051939/221d66eb-9bfd-43d8-9702-d356e15046b0)
 最后修改![1709215280522](https://github.com/baicaige669/pengyouquan/assets/146051939/49f45d57-2cac-49c1-88de-e26cf2c1bf3e)修改上传到数据库的图片的url
 
+数据库file需要全部修改 
+
+
+另外![1709216025102](https://github.com/baicaige669/pengyouquan/assets/146051939/ccb2e6a1-3ee4-4092-bfdd-6b440e96d675)
+这一条是随机生成美文的外部接口
