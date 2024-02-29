@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.feng.Mybatis.mapper.filesMapper">
+
+    <resultMap id="BaseResultMap" type="com.feng.Mybatis.pojo.files">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="name" column="name" jdbcType="VARCHAR"/>
+            <result property="type" column="type" jdbcType="VARCHAR"/>
+            <result property="size" column="size" jdbcType="BIGINT"/>
+            <result property="url" column="url" jdbcType="VARCHAR"/>
+            <result property="isDele" column="is_dele" jdbcType="TINYINT"/>
+            <result property="enable" column="enable" jdbcType="TINYINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,name,type,
+        size,url,is_dele,
+        enable
+    </sql>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from files
+        where  id = #{id,jdbcType=INTEGER} 
+    </select>
+    <select id="findall" resultType="com.feng.Mybatis.pojo.files">
+        select * from files
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete from files
+        where  id = #{id,jdbcType=INTEGER} 
+    </delete>
+    <insert id="insert" keyColumn="id" keyProperty="id" parameterType="com.feng.Mybatis.pojo.files" useGeneratedKeys="true">
+        insert into files
+        ( id,name,type
+        ,size,url,is_dele
+        ,enable)
+        values (#{id,jdbcType=INTEGER},#{name,jdbcType=VARCHAR},#{type,jdbcType=VARCHAR}
+        ,#{size,jdbcType=BIGINT},#{url,jdbcType=VARCHAR},#{isDele,jdbcType=TINYINT}
+        ,#{enable,jdbcType=TINYINT})
+    </insert>
+    <insert id="insertSelective" keyColumn="id" keyProperty="id" parameterType="com.feng.Mybatis.pojo.files" useGeneratedKeys="true">
+        insert into files
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+                <if test="id != null">id,</if>
+                <if test="name != null">name,</if>
+                <if test="type != null">type,</if>
+                <if test="size != null">size,</if>
+                <if test="url != null">url,</if>
+                <if test="isDele != null">is_dele,</if>
+                <if test="enable != null">enable,</if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+                <if test="id != null">#{id,jdbcType=INTEGER},</if>
+                <if test="name != null">#{name,jdbcType=VARCHAR},</if>
+                <if test="type != null">#{type,jdbcType=VARCHAR},</if>
+                <if test="size != null">#{size,jdbcType=BIGINT},</if>
+                <if test="url != null">#{url,jdbcType=VARCHAR},</if>
+                <if test="isDele != null">#{isDele,jdbcType=TINYINT},</if>
+                <if test="enable != null">#{enable,jdbcType=TINYINT},</if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.feng.Mybatis.pojo.files">
+        update files
+        <set>
+                <if test="name != null">
+                    name = #{name,jdbcType=VARCHAR},
+                </if>
+                <if test="type != null">
+                    type = #{type,jdbcType=VARCHAR},
+                </if>
+                <if test="size != null">
+                    size = #{size,jdbcType=BIGINT},
+                </if>
+                <if test="url != null">
+                    url = #{url,jdbcType=VARCHAR},
+                </if>
+                <if test="isDele != null">
+                    is_dele = #{isDele,jdbcType=TINYINT},
+                </if>
+                <if test="enable != null">
+                    enable = #{enable,jdbcType=TINYINT},
+                </if>
+        </set>
+        where   id = #{id,jdbcType=INTEGER} 
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.feng.Mybatis.pojo.files">
+        update files
+        set 
+            name =  #{name,jdbcType=VARCHAR},
+            type =  #{type,jdbcType=VARCHAR},
+            size =  #{size,jdbcType=BIGINT},
+            url =  #{url,jdbcType=VARCHAR},
+            is_dele =  #{isDele,jdbcType=TINYINT},
+            enable =  #{enable,jdbcType=TINYINT}
+        where   id = #{id,jdbcType=INTEGER} 
+    </update>
+</mapper>

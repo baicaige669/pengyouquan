@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.feng.ApplicationTests" time="2.984" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="D:\BraveStart\SpringBoot\target\test-classes;D:\BraveStart\SpringBoot\target\classes;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-jdbc\3.2.2\spring-boot-starter-jdbc-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter\3.2.2\spring-boot-starter-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot\3.2.2\spring-boot-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-autoconfigure\3.2.2\spring-boot-autoconfigure-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-logging\3.2.2\spring-boot-starter-logging-3.2.2.jar;D:\Maven_Localrepoitory\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;D:\Maven_Localrepoitory\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;D:\Maven_Localrepoitory\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;D:\Maven_Localrepoitory\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;D:\Maven_Localrepoitory\org\slf4j\jul-to-slf4j\2.0.11\jul-to-slf4j-2.0.11.jar;D:\Maven_Localrepoitory\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;D:\Maven_Localrepoitory\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;D:\Maven_Localrepoitory\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;D:\Maven_Localrepoitory\org\springframework\spring-jdbc\6.1.3\spring-jdbc-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-beans\6.1.3\spring-beans-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-tx\6.1.3\spring-tx-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-web\3.2.2\spring-boot-starter-web-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-json\3.2.2\spring-boot-starter-json-3.2.2.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-web\6.1.3\spring-web-6.1.3.jar;D:\Maven_Localrepoitory\io\micrometer\micrometer-observation\1.12.2\micrometer-observation-1.12.2.jar;D:\Maven_Localrepoitory\io\micrometer\micrometer-commons\1.12.2\micrometer-commons-1.12.2.jar;D:\Maven_Localrepoitory\org\springframework\spring-webmvc\6.1.3\spring-webmvc-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-aop\6.1.3\spring-aop-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-context\6.1.3\spring-context-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-expression\6.1.3\spring-expression-6.1.3.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-starter\3.0.3\mybatis-spring-boot-starter-3.0.3.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\3.0.3\mybatis-spring-boot-autoconfigure-3.0.3.jar;D:\Maven_Localrepoitory\org\mybatis\mybatis\3.5.14\mybatis-3.5.14.jar;D:\Maven_Localrepoitory\org\mybatis\mybatis-spring\3.0.3\mybatis-spring-3.0.3.jar;D:\Maven_Localrepoitory\com\auth0\java-jwt\3.19.2\java-jwt-3.19.2.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;D:\Maven_Localrepoitory\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;D:\Maven_Localrepoitory\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-tomcat\3.2.2\spring-boot-starter-tomcat-3.2.2.jar;D:\Maven_Localrepoitory\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;D:\Maven_Localrepoitory\org\apache\tomcat\embed\tomcat-embed-core\10.1.18\tomcat-embed-core-10.1.18.jar;D:\Maven_Localrepoitory\org\apache\tomcat\embed\tomcat-embed-el\10.1.18\tomcat-embed-el-10.1.18.jar;D:\Maven_Localrepoitory\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.18\tomcat-embed-websocket-10.1.18.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-test\3.2.2\spring-boot-starter-test-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-test\3.2.2\spring-boot-test-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-test-autoconfigure\3.2.2\spring-boot-test-autoconfigure-3.2.2.jar;D:\Maven_Localrepoitory\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;D:\Maven_Localrepoitory\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;D:\Maven_Localrepoitory\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;D:\Maven_Localrepoitory\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;D:\Maven_Localrepoitory\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;D:\Maven_Localrepoitory\org\ow2\asm\asm\9.3\asm-9.3.jar;D:\Maven_Localrepoitory\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;D:\Maven_Localrepoitory\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;D:\Maven_Localrepoitory\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;D:\Maven_Localrepoitory\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;D:\Maven_Localrepoitory\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\Maven_Localrepoitory\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;D:\Maven_Localrepoitory\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;D:\Maven_Localrepoitory\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;D:\Maven_Localrepoitory\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;D:\Maven_Localrepoitory\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar;D:\Maven_Localrepoitory\org\objenesis\objenesis\3.3\objenesis-3.3.jar;D:\Maven_Localrepoitory\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;D:\Maven_Localrepoitory\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;D:\Maven_Localrepoitory\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\Maven_Localrepoitory\org\springframework\spring-core\6.1.3\spring-core-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-jcl\6.1.3\spring-jcl-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-test\6.1.3\spring-test-6.1.3.jar;D:\Maven_Localrepoitory\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-starter-test\3.0.3\mybatis-spring-boot-starter-test-3.0.3.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-test-autoconfigure\3.0.3\mybatis-spring-boot-test-autoconfigure-3.0.3.jar;D:\Maven_Localrepoitory\cn\hutool\hutool-core\5.8.22\hutool-core-5.8.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="C:\Users\冯艺洲\.jdks\openjdk-21.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\冯艺洲\AppData\Local\Temp\surefire10148189418726096926\surefirebooter-20240221214513412_3.jar C:\Users\冯艺洲\AppData\Local\Temp\surefire10148189418726096926 2024-02-21T21-45-13_298-jvmRun1 surefire-20240221214513412_1tmp surefire_0-20240221214513412_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\BraveStart\SpringBoot\target\test-classes;D:\BraveStart\SpringBoot\target\classes;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-jdbc\3.2.2\spring-boot-starter-jdbc-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter\3.2.2\spring-boot-starter-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot\3.2.2\spring-boot-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-autoconfigure\3.2.2\spring-boot-autoconfigure-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-logging\3.2.2\spring-boot-starter-logging-3.2.2.jar;D:\Maven_Localrepoitory\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;D:\Maven_Localrepoitory\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;D:\Maven_Localrepoitory\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;D:\Maven_Localrepoitory\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;D:\Maven_Localrepoitory\org\slf4j\jul-to-slf4j\2.0.11\jul-to-slf4j-2.0.11.jar;D:\Maven_Localrepoitory\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;D:\Maven_Localrepoitory\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;D:\Maven_Localrepoitory\org\slf4j\slf4j-api\2.0.11\slf4j-api-2.0.11.jar;D:\Maven_Localrepoitory\org\springframework\spring-jdbc\6.1.3\spring-jdbc-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-beans\6.1.3\spring-beans-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-tx\6.1.3\spring-tx-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-web\3.2.2\spring-boot-starter-web-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-json\3.2.2\spring-boot-starter-json-3.2.2.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.3\jackson-datatype-jdk8-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.3\jackson-datatype-jsr310-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.3\jackson-module-parameter-names-2.15.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-web\6.1.3\spring-web-6.1.3.jar;D:\Maven_Localrepoitory\io\micrometer\micrometer-observation\1.12.2\micrometer-observation-1.12.2.jar;D:\Maven_Localrepoitory\io\micrometer\micrometer-commons\1.12.2\micrometer-commons-1.12.2.jar;D:\Maven_Localrepoitory\org\springframework\spring-webmvc\6.1.3\spring-webmvc-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-aop\6.1.3\spring-aop-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-context\6.1.3\spring-context-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-expression\6.1.3\spring-expression-6.1.3.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-starter\3.0.3\mybatis-spring-boot-starter-3.0.3.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-autoconfigure\3.0.3\mybatis-spring-boot-autoconfigure-3.0.3.jar;D:\Maven_Localrepoitory\org\mybatis\mybatis\3.5.14\mybatis-3.5.14.jar;D:\Maven_Localrepoitory\org\mybatis\mybatis-spring\3.0.3\mybatis-spring-3.0.3.jar;D:\Maven_Localrepoitory\com\auth0\java-jwt\3.19.2\java-jwt-3.19.2.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\core\jackson-databind\2.15.3\jackson-databind-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\core\jackson-annotations\2.15.3\jackson-annotations-2.15.3.jar;D:\Maven_Localrepoitory\com\fasterxml\jackson\core\jackson-core\2.15.3\jackson-core-2.15.3.jar;D:\Maven_Localrepoitory\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;D:\Maven_Localrepoitory\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-tomcat\3.2.2\spring-boot-starter-tomcat-3.2.2.jar;D:\Maven_Localrepoitory\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;D:\Maven_Localrepoitory\org\apache\tomcat\embed\tomcat-embed-core\10.1.18\tomcat-embed-core-10.1.18.jar;D:\Maven_Localrepoitory\org\apache\tomcat\embed\tomcat-embed-el\10.1.18\tomcat-embed-el-10.1.18.jar;D:\Maven_Localrepoitory\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.18\tomcat-embed-websocket-10.1.18.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-starter-test\3.2.2\spring-boot-starter-test-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-test\3.2.2\spring-boot-test-3.2.2.jar;D:\Maven_Localrepoitory\org\springframework\boot\spring-boot-test-autoconfigure\3.2.2\spring-boot-test-autoconfigure-3.2.2.jar;D:\Maven_Localrepoitory\com\jayway\jsonpath\json-path\2.8.0\json-path-2.8.0.jar;D:\Maven_Localrepoitory\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;D:\Maven_Localrepoitory\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;D:\Maven_Localrepoitory\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;D:\Maven_Localrepoitory\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;D:\Maven_Localrepoitory\org\ow2\asm\asm\9.3\asm-9.3.jar;D:\Maven_Localrepoitory\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;D:\Maven_Localrepoitory\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;D:\Maven_Localrepoitory\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;D:\Maven_Localrepoitory\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter\5.10.1\junit-jupiter-5.10.1.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter-api\5.10.1\junit-jupiter-api-5.10.1.jar;D:\Maven_Localrepoitory\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\Maven_Localrepoitory\org\junit\platform\junit-platform-commons\1.10.1\junit-platform-commons-1.10.1.jar;D:\Maven_Localrepoitory\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter-params\5.10.1\junit-jupiter-params-5.10.1.jar;D:\Maven_Localrepoitory\org\junit\jupiter\junit-jupiter-engine\5.10.1\junit-jupiter-engine-5.10.1.jar;D:\Maven_Localrepoitory\org\junit\platform\junit-platform-engine\1.10.1\junit-platform-engine-1.10.1.jar;D:\Maven_Localrepoitory\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;D:\Maven_Localrepoitory\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar;D:\Maven_Localrepoitory\org\objenesis\objenesis\3.3\objenesis-3.3.jar;D:\Maven_Localrepoitory\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;D:\Maven_Localrepoitory\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;D:\Maven_Localrepoitory\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;D:\Maven_Localrepoitory\org\springframework\spring-core\6.1.3\spring-core-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-jcl\6.1.3\spring-jcl-6.1.3.jar;D:\Maven_Localrepoitory\org\springframework\spring-test\6.1.3\spring-test-6.1.3.jar;D:\Maven_Localrepoitory\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-starter-test\3.0.3\mybatis-spring-boot-starter-test-3.0.3.jar;D:\Maven_Localrepoitory\org\mybatis\spring\boot\mybatis-spring-boot-test-autoconfigure\3.0.3\mybatis-spring-boot-test-autoconfigure-3.0.3.jar;D:\Maven_Localrepoitory\cn\hutool\hutool-core\5.8.22\hutool-core-5.8.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\冯艺洲"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Users\冯艺洲\.jdks\openjdk-21.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\BraveStart\SpringBoot"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\冯艺洲\AppData\Local\Temp\surefire10148189418726096926\surefirebooter-20240221214513412_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-29"/>
+    <property name="user.name" value="冯艺洲"/>
+    <property name="stdout.encoding" value="GBK"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Maven_Localrepoitory"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\冯艺洲\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2023.2.5"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="D:\BraveStart\SpringBoot"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="52824"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Users\冯艺洲\.jdks\openjdk-21.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\nodejs\;D:\Maven\apache-maven-3.6.3\bin;D:\xshell\;D:\xftp\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\冯艺洲\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Java\jdk1.8.0_92\bin;;D:\Program Files\JetBrains\IntelliJ IDEA 2020.1\bin;;D:\Users\冯艺洲\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\冯艺洲\AppData\Roaming\npm;D:\fiddler;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="GBK"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.feng.ApplicationTests" time="0.754">
+    <system-out><![CDATA[21:45:14.106 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.feng.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:45:14.205 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.feng.Application for test class com.feng.ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2024-02-21T21:45:14.599+08:00  INFO 52824 --- [           main] com.feng.ApplicationTests                : Starting ApplicationTests using Java 21.0.1 with PID 52824 (started by 冯艺洲 in D:\BraveStart\SpringBoot)
+2024-02-21T21:45:14.600+08:00  INFO 52824 --- [           main] com.feng.ApplicationTests                : No active profile set, falling back to 1 default profile: "default"
+2024-02-21T21:45:16.161+08:00  INFO 52824 --- [           main] com.feng.ApplicationTests                : Started ApplicationTests in 1.814 seconds (process running for 2.651)
+9
+2
+8
+5
+6
+7
+4
+4
+10
+10
+1
+7
+6
+2
+5
+6
+4
+7
+5
+5
+10
+5
+9
+3
+9
+3
+4
+9
+7
+10
+1
+7
+10
+9
+8
+2
+5
+4
+5
+2
+]]></system-out>
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (D:\Maven_Localrepoitory\net\bytebuddy\byte-buddy-agent\1.14.11\byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+</testsuite>
